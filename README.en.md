@@ -1,12 +1,12 @@
 # Private AI Ready
 
-[![Private AI Ready](guia/assets/banner-en.jpg)](https://inematds.github.io/ia-privada-pronta/guia/en/)
+[![Private AI Ready](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/
 
 **🇧🇷 [Português](../../README.md) · 🇺🇸 [English](README.md) · 🇪🇸 [Español](../es/)**
 
 [🎬 Video: talk to your AI without internet (audio in Portuguese).](https://www.youtube.com/watch?v=TJ9omYZdIrE)
 
-Full guide: https://inematds.github.io/ia-privada-pronta/guia/en/
+Full guide: https://linnoff88-dev.github.io/
 
 **Real Linux validation:** execution without external network access, a conversation with context, and shutdown of the dedicated processes were confirmed. All 14 software tests passed. The lightweight model got the document calculation wrong; the result is recorded without changing the answer key. See [the full results](../../verificacao/STATUS.md).
 
@@ -20,7 +20,7 @@ This kit lets you chat with an AI on your own computer, without an external infe
 
 ## Requirements
 
-- Git to clone, or [download the ZIP](https://github.com/inematds/ia-privada-pronta/archive/refs/heads/main.zip) and extract the folder.
+- Git to clone, or [download the ZIP](https://github.com/linnoff88-dev/ia-privada-pronta/archive/refs/heads/main.zip) and extract the folder.
 - Python 3.10 or later: [official installer](https://www.python.org/downloads/).
 - [Ollama installed](https://ollama.com/download) on Linux, macOS, or Windows.
 - For the default model: approximately **2 GB to download**, **8 GB of RAM recommended**, free space for the weights, and resources for the system. Default context: 2048; actual usage depends on the runtime. A GPU is optional: CPU works, with different performance.
@@ -38,7 +38,7 @@ On Windows, use `py` instead of `python3` if needed. After installing Python or 
 ## Install and chat
 
 ```bash
-git clone https://github.com/inematds/ia-privada-pronta.git
+git clone https://github.com/linnoff88-dev/ia-privada-pronta.git
 cd ia-privada-pronta
 python3 ia.py diagnostico
 python3 ia.py preparar

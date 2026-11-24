@@ -1,12 +1,12 @@
 # IA privada lista
 
-[![IA privada lista](guia/assets/banner-es.jpg)](https://inematds.github.io/ia-privada-pronta/guia/es/)
+[![IA privada lista](guia/assets/banner-es.jpg)](https://linnoff88-dev.github.io/
 
 **🇧🇷 [Português](../../README.md) · 🇺🇸 [English](../../README.en.md) · 🇪🇸 [Español](README.es.md)**
 
 [🎬 Video: conversa con tu IA sin internet (audio en portugués).](https://www.youtube.com/watch?v=TJ9omYZdIrE)
 
-Guía completa: https://inematds.github.io/ia-privada-pronta/guia/es/
+Guía completa: https://linnoff88-dev.github.io/
 
 **Validación real en Linux:** se confirmó la ejecución sin red externa, la conversación con contexto y el cierre de los procesos propios. Pasaron las 14 pruebas de software. El modelo ligero se equivocó en el ejercicio de cálculo del documento; el resultado está registrado, sin cambiar la respuesta correcta. Consulta [los resultados completos](../../verificacao/STATUS.md).
 
@@ -20,7 +20,7 @@ Este kit pone una IA a conversar contigo en tu propio ordenador, sin proveedores
 
 ## Requisitos
 
-- Git para clonar, o [descarga el ZIP](https://github.com/inematds/ia-privada-pronta/archive/refs/heads/main.zip) y extrae la carpeta.
+- Git para clonar, o [descarga el ZIP](https://github.com/linnoff88-dev/ia-privada-pronta/archive/refs/heads/main.zip) y extrae la carpeta.
 - Python 3.10 o superior: [instalador oficial](https://www.python.org/downloads/).
 - [Ollama instalado](https://ollama.com/download), en Linux, macOS o Windows.
 - Para el modelo predeterminado: aproximadamente **2 GB de descarga**, se recomiendan **8 GB de RAM**, espacio libre para los pesos y recursos para el sistema. El contexto predeterminado es de 2048; el consumo real depende del entorno de ejecución. La GPU es opcional: la CPU funciona, con un rendimiento distinto.
@@ -38,7 +38,7 @@ En Windows, usa `py` en lugar de `python3` si hace falta. Después de instalar P
 ## Instalar y conversar
 
 ```bash
-git clone https://github.com/inematds/ia-privada-pronta.git
+git clone https://github.com/linnoff88-dev/ia-privada-pronta.git
 cd ia-privada-pronta
 python3 ia.py diagnostico
 python3 ia.py preparar
