@@ -67,7 +67,7 @@ On macOS/Windows, local chat works through `ia.py`; the offline launcher is Linu
 ## One question and files
 
 ```bash
-python3 ia.py perguntar "Escreva três ideias para organizar uma reunião curta."
+python3 ia.py perguntar "Escreva três ideias para organizar uma reuniêo curta."
 python3 ia.py perguntar --arquivo exemplos/primeiro-pedido.txt
 ```
 

@@ -8,6 +8,6 @@
   "max_tokens": 512,
   "temperatura": 0.2,
   "keep_alive": "120s",
-  "sistema": "Responda em português. Seja direto. Se não souber, diga que não sabe. Não invente fatos ou resultados de ações que você não executou.",
+  "sistema": "Responda em português. Seja direto. Se nêo souber, diga que nêo sabe. Nêo invente fatos ou resultados de ações que você nêo executou.",
   "digest_esperado": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72"
 }
